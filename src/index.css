@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: radial-gradient(100% 100% at 5% 90%, rgba(250, 0, 255, 0.252) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(66.25% 131.01% at 102.29% 13.33%, rgba(29, 201, 255, 0.268) 0%, rgba(0, 0, 0, 0) 100%), #141734;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.content {
+  padding: 1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  scrollbar-width: none;
+}
+
+.container {
+  text-align: center;
+  background: #5C678C66;
+  color: #FFFFFF;
+  backdrop-filter: blur(2rpx);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  height: 28.5rem;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container h1{
+  text-align: center;
+}
+
+.container p {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: .9rem;
+}
+
+.container h4 {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: .5rem;
+}
+
+.inner-container {
+  text-align: center;
+  background: #5C678C66;
+  backdrop-filter: blur(2px);
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.tasklist-container {
+  position: relative;
+  text-align: center;
+  background: #5C678C66;
+  backdrop-filter: blur(2px);
+  border-radius: 1.5rem;
+  height: 24.8rem;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.tasklist-container::-webkit-scrollbar {
+  display: none;
+}
+
+.tasklist-wrapper {
+  text-align: center;
+  height: 23rem;
+  border-radius: 1rem;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.tasklist-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.gantt-wrapper {
+  background: #FFFFFF;
+  color: #000000;
+  align-items: center;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+.gantt-wrapper h1{
+  text-align: center;
+}
+
+.gantt-wrapper p{
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
+.gantt-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.form-wrapper {
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.gantt-container {
+  text-align: center;
+  background: #5C678C66;
+  color: #FFFFFF;
+  backdrop-filter: blur(2rpx);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+}
+
+.gantt-container h1{
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
+.task {
+  background: #5C678C66;
+  color: #FFFFFF;
+  backdrop-filter: blur(2rpx);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  height: 3.8rem;
+}
+
+.task-details {
+  white-space: nowrap;
+  overflow: auto;
+  overflow-y: hidden;
+  display: flex; 
+  text-align: left;
+  scrollbar-width: none;
+}
+
+.task-details::-webkit-scrollbar {
+  display: none;
+}
+
+.input-box fieldset{
+  border-radius: 1.5rem;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.credits {
+  padding: .5rem;
+  text-align: center;
+  font-size: small;
+  color: #FFFFFF;
+}
+
+/* responsive and mobile styles */
+
+@media only screen and (max-width: 600px) {
+
+  .content {
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  #project-details-container {
+    height: 33em;
+  }
+
+  .container p {
+    text-align: center;
+  }
+}
