@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/webmasters-Team/new-gantt/static/css/main.7a81698a.css",
+    "main.js": "/webmasters-Team/new-gantt/static/js/main.6c0d3e4b.js",
+    "index.html": "/webmasters-Team/new-gantt/index.html",
+    "main.7a81698a.css.map": "/webmasters-Team/new-gantt/static/css/main.7a81698a.css.map",
+    "main.6c0d3e4b.js.map": "/webmasters-Team/new-gantt/static/js/main.6c0d3e4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a81698a.css",
+    "static/js/main.6c0d3e4b.js"
+  ]
+}
