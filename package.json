@@ -2,7 +2,7 @@
   "name": "gantt-chart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://RobKokochak.github.io/gantt-chart-app",
+  "homepage": "https://github.com/webmasters-Team/Gantt-chart-tool",
   "dependencies": {
     "@date-io/date-fns": "^2.16.0",
     "@date-io/dayjs": "^2.16.0",
