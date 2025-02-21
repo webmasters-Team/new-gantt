@@ -69,7 +69,7 @@ const CustomizedDialogs = () => {
         </BootstrapDialogTitle>
         <DialogContent dividers>
           <Typography gutterBottom>
-          This web app was created for Dr. Bruce Maxim's Software Engineering class at University of Michigan-Dearborn for Fall 2022. It was created by Greg Kosakowski, Rob Kokochak, Andrew Pearson, Matthew Alexander, and Caitlin Alandt. This app is created with the React framework. 
+          This web app was created by Webmasters, Software Development company. Our interest is creating web and mobile applications that are scalable, performant, and address real-world issues.
           </Typography>
         </DialogContent>
       </BootstrapDialog>
